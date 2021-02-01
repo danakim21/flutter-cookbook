@@ -8,7 +8,9 @@
 ## 2. Fade in images with a placeholder
 
 - `FadeInImage`: 이미지 로딩 전에는 Placeholder 사용 & 이미지가 fade in
-  - in-memory, local assets, internet imaegs 모두 사용 가능
+  - in-memory, local assets, internet images 모두 사용 가능
+- `import 'package:transparent_image/transparent_image.dart';`
+  - pubspec.yaml에도 import
 - In-memory:
   ```dart
   FadeInImage.memoryNetwork(
@@ -42,4 +44,3 @@
       imageUrl: 'https://picsum.photos/250?image=9',
     );
     ```
-  -
